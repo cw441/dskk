@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sdzs",
+  "info": {
+    "singularName": "sdz",
+    "pluralName": "sdzs",
+    "displayName": "sdz"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name1": {
+      "type": "string",
+      "maxLength": 17,
+      "required": true
+    },
+    "title1": {
+      "type": "richtext",
+      "required": false,
+      "maxLength": 300
+    },
+    "num1": {
+      "type": "float",
+      "required": true
+    },
+    "image1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
